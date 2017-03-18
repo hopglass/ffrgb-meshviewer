@@ -9,6 +9,10 @@
   <!-- contents of html partials will be injected here -->
   <!-- endinject -->
   <script src="vendor/promise.js" inline></script>
+  <script src="vendor/raven.js" inline></script>
+  <script>
+    Raven.config('https://d01637ef6bde46a2b891113a175e8df8@sentry.xaver.xyz/2').install();
+  </script>
   <script src="app.js"></script>
 </head>
 <body>
